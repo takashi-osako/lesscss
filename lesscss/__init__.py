@@ -143,4 +143,4 @@ class LessCSS(object):
                         css_based = '%s/%s' % (self._output, css_based)
                     command_opt.append(css_based)
                     subprocess.call(command_opt, shell=False)
-            del command_opt[-2:]
+                del command_opt[-2:]
